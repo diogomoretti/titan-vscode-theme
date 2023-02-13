@@ -1,0 +1,898 @@
+{
+  "name": "Oceans Theme",
+  "type": "dark",
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "string.comment"
+      ],
+      "settings": {
+        "foreground": "--color-comments"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "name": "js template-expression",
+      "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.end.ts",
+      "settings": {
+        "foreground": "--color-red"
+      }
+    },
+    {
+      "name": "TemplateString",
+      "scope": [
+        "string.template.js",
+        "variable.parameter.js"
+      ],
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "name": "TemplateString",
+      "scope": "meta.template.expression.js",
+      "settings": {
+        "foreground": "--color-gray"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "--color-2"
+      }
+    },
+    {
+      "name": "Embeded String Begin and End",
+      "scope": [
+        "string.embedded.begin",
+        "string.embedded.end"
+      ],
+      "settings": {
+        "foreground": "--color-2"
+      }
+    },
+    {
+      "name": "Embeded String",
+      "scope": "string.embedded",
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "Built-in constant",
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "--color-2"
+      }
+    },
+    {
+      "name": "User-defined constant",
+      "scope": [
+        "constant.character",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "--color-2"
+      }
+    },
+    {
+      "name": "Language Variable",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "--color-2"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "variable.readwrite",
+        "variable.readwrite.other.block"
+      ],
+      "settings": {
+        "foreground": "--color-red"
+      }
+    },
+    {
+      "name": "Variable JS",
+      "scope": [
+        "variable.other.object.js",
+        "meta.function-call.js",
+        "meta.object-literal.key.js",
+        "meta.tag.attributes.js",
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.jsx",
+        "variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "--color-gray"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "entity.name.variable",
+        "entity.name.variable.local",
+        "meta.object-literal.key",
+        "variable.object.constant",
+        "variable.object.property",
+        "variable.other.alias",
+        "variable.other.constant",
+        "variable.other.object",
+        "variable.other.property",
+        "variable.other.readwrite",
+        "variable.parameter",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "--color-gray"
+      }
+    },
+    {
+      "name": "Variables (local)",
+      "scope": [
+        "keyword.other.base",
+        "keyword.other.this",
+        "variable.other.object.property",
+        "variable.language.base",
+        "variable.language.this"
+      ],
+      "settings": {
+        "foreground": "--color-gray"
+      }
+    },
+    {
+      "name": "Variables (UnityEngine)",
+      "scope": [
+        "support.variable.UnityEngine"
+      ],
+      "settings": {
+        "foreground": "--color-gray"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword",
+        "keyword.operator",
+        "keyword.operator.logical",
+        "keyword.operator.constructor"
+      ],
+      "settings": {
+        "foreground": "--color-5"
+      }
+    },
+    {
+      "name": "Async - Await JS",
+      "scope": [
+        "storage.modifier.async.js",
+        "keyword.control.flow.js"
+      ],
+      "settings": {
+        "foreground": "--color-5"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "name": "Storage type",
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "--color-3"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": [
+        "entity.name.class",
+        "entity.name.module",
+        "entity.name.type",
+        "storage.identifier",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "--color-1"
+      }
+    },
+    {
+      "name": "Other variable",
+      "scope": [
+        "variable.other.property",
+        "variable.other.block"
+      ],
+      "settings": {
+        "foreground": "--color-1"
+      }
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "Function name",
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "Function argument",
+      "scope": "variable.parameter",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "--color-3"
+      }
+    },
+    {
+      "name": "Function call",
+      "scope": "entity.name.function-call",
+      "settings": {
+        "foreground": "--color-gray"
+      }
+    },
+    {
+      "name": "Builtin Functions",
+      "scope": [
+        "function.support.builtin",
+        "function.support.core"
+      ],
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "Tag name",
+      "scope": [
+        "entity.name.tag",
+        "entity.name.tag.class.js",
+        "entity.name.tag.class.jsx"
+      ],
+      "settings": {
+        "foreground": "--color-3"
+      }
+    },
+    {
+      "name": "Tag Class and ID",
+      "scope": [
+        "entity.name.tag.class",
+        "entity.name.tag.id"
+      ],
+      "settings": {
+        "foreground": "--color-3"
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "Library constant",
+      "scope": "support.constant",
+      "settings": {
+        "foreground": "--color-2"
+      }
+    },
+    {
+      "name": "Library class/type",
+      "scope": [
+        "support.type",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "--color-3"
+      }
+    },
+    {
+      "name": "Json Property",
+      "scope": "support.dictionary.json",
+      "settings": {
+        "foreground": "--color-red"
+      }
+    },
+    {
+      "name": "JSON Key - Punctuation",
+      "scope": [
+        "source.json meta.structure.dictionary.json string.quoted.double.json punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "--color-3"
+      }
+    },
+    {
+      "name": "JSON Key - String",
+      "scope": "source.json string.quoted.double.json",
+      "settings": {
+        "foreground": "--color-gray"
+      }
+    },
+    {
+      "name": "JSON Key - Level 0",
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "name": "JSON Key - Level 1",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "JSON Key - Level 2",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "JSON Key - Level 3",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "JSON Key - Level 4",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "JSON Key - Level 5",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "--color-2"
+      }
+    },
+    {
+      "name": "JSON Key - Level 6",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "JSON Key - Level 7",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "--color-1"
+      }
+    },
+    {
+      "name": "JSON Key - Level 8",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "--color-3"
+      }
+    },
+    {
+      "name": "StyleSheet TAG name (Class and ID)",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css",
+        "punctuation.section.property-list.begin.bracket.curly.css"
+      ],
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "StyleSheet Property name",
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.property-name.scss",
+        "support.type.property-name.less",
+        "support.type.property-name.sass",
+        "entity.name.tag.css"
+      ],
+      "settings": {
+        "foreground": "--color-1"
+      }
+    },
+    {
+      "name": "StyleSheet Property value",
+      "scope": [
+        "support.constant.css",
+        "support.constant.scss",
+        "support.constant.less",
+        "support.constant.sass"
+      ],
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "name": "StyleSheet Variable",
+      "scope": [
+        "variable.css",
+        "variable.scss",
+        "variable.less",
+        "variable.sass",
+        "entity.name.tag.css"
+      ],
+      "settings": {
+        "foreground": "--color-3"
+      }
+    },
+    {
+      "name": "StyleSheet Variable String",
+      "scope": [
+        "variable.css.string",
+        "variable.scss.string",
+        "variable.less.string",
+        "variable.sass.string",
+        "support.constant.property-value.css"
+      ],
+      "settings": {
+        "foreground": "--color-5"
+      }
+    },
+    {
+      "name": "StyleSheet Unit",
+      "scope": [
+        "unit.css",
+        "unit.scss",
+        "unit.less",
+        "unit.sass",
+        "keyword.other.unit.percentage.css",
+        "constant.numeric.css",
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.em.css",
+        "keyword.other.unit.rem.css"
+      ],
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "name": "StyleSheet Number",
+      "scope": [
+        "constant.numeric.css",
+        "constant.numeric.scss",
+        "constant.numeric.less",
+        "constant.numeric.sass"
+      ],
+      "settings": {
+        "foreground": "--color-5"
+      }
+    },
+    {
+      "name": "StyleSheet Function",
+      "scope": [
+        "function.css",
+        "function.scss",
+        "function.less",
+        "function.sass"
+      ],
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "Library variable",
+      "scope": "support.other.variable",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "--color-1"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "foreground": "--color-negative"
+      }
+    },
+    {
+      "name": "Invalid deprecated",
+      "scope": "invalid.deprecated",
+      "settings": {
+        "foreground": "--color-negative"
+      }
+    },
+    {
+      "name": "Link",
+      "scope": "string.detected-link",
+      "settings": {
+        "foreground": "--color-1"
+      }
+    },
+    {
+      "name": "diff.header",
+      "scope": [
+        "meta.diff",
+        "meta.diff.header"
+      ],
+      "settings": {
+        "foreground": "--color-1"
+      }
+    },
+    {
+      "name": "diff.deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "--color-red"
+      }
+    },
+    {
+      "name": "diff.inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "name": "diff.changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "scope": "constant.numeric.line-number.find-in-files - match",
+      "settings": {
+        "foreground": "--color-1"
+      }
+    },
+    {
+      "scope": "entity.name.filename.find-in-files",
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "name": "Markup: Emphasis",
+      "scope": "markup.normal, markup.normal.markdown",
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "name": "Markup: Emphasis Punctuation",
+      "scope": "punctuation.definition.normal.markdown",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "--color-opposite60"
+      }
+    },
+    {
+      "name": "Markdown: Language Block Code",
+      "scope": "fenced_code.block.language.markdown",
+      "settings": {
+        "foreground": "--color-3"
+      }
+    },
+    {
+      "name": "Markdown: Link",
+      "scope": "markup.underline.link.markdown",
+      "settings": {
+        "foreground": "--color-2"
+      }
+    },
+    {
+      "name": "Markdown: Bold",
+      "scope": "markup.bold.markdown",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown: Bold Punctuation",
+      "scope": "punctuation.definition.bold.markdown",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "--color-opposite60"
+      }
+    },
+    {
+      "name": "Control flow keywords",
+      "scope": "keyword.control",
+      "settings": {
+        "foreground": "--color-3"
+      }
+    },
+    {
+      "name": "Markdown: Heading",
+      "scope": [
+        "markup.heading.markdown",
+        "entity.name.section.markdown"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "Markdown: Heading",
+      "scope": "punctuation.definition.heading.markdown",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "name": "Markdown: Quote",
+      "scope": "markup.quote.markdown",
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "name": "Markdown: Separator",
+      "scope": "meta.separator.markdown",
+      "settings": {
+        "foreground": "--color-red",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown: Raw",
+      "scope": [
+        "markup.raw.inline.markdown",
+        "markup.raw.block.markdown",
+        "markup.inline.raw.string.markdown",
+        "string.other.link.title.markdown"
+      ],
+      "settings": {
+        "foreground": "--color-1"
+      }
+    },
+    {
+      "name": "Markdown: List Punctuation",
+      "scope": "punctuation.definition.list_item.markdown",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "--color-negative"
+      }
+    },
+    {
+      "scope": "keyword.operator.assignment.python",
+      "settings": {
+        "foreground": "--color-gray"
+      }
+    },
+    {
+      "scope": [
+        "meta.function-call.generic.python",
+        "meta.function-call.python",
+        "meta.function-call.arguments.python",
+        "meta.function-call.python"
+      ],
+      "settings": {
+        "foreground": "--color-4"
+      }
+    },
+    {
+      "scope": "keyword.operator.other.elixir",
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "scope": "variable.other.constant.elixir",
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "scope": "constant.other.symbol.elixir",
+      "settings": {
+        "foreground": "--color-1"
+      }
+    },
+    {
+      "scope": "parameter.variable.function.elixir",
+      "settings": {
+        "foreground": "--color-5"
+      }
+    },
+    {
+      "name": "Elixir Functions",
+      "scope": "source.elixir entity.name.function",
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "name": "Elixir",
+      "scope": [
+        "source.elixir variable.other.readwrite.module.elixir",
+        "source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"
+      ],
+      "settings": {
+        "foreground": "--color-1"
+      }
+    },
+    {
+      "name": "Modules",
+      "scope": [
+        "variable.other.constant.elixir"
+      ],
+      "settings": {
+        "foreground": "--color-accent"
+      }
+    },
+    {
+      "name": "Elixir Binary Punctuations",
+      "scope": "source.elixir.punctuation.binary.elixir",
+      "settings": {
+        "foreground": "--color-1"
+      }
+    },
+    {
+      "name": "Svelte Keyword",
+      "scope": "keyword.control.svelte",
+      "settings": {
+        "foreground": "--color-2"
+      }
+    }
+  ],
+  "colors": {
+    "activityBar.background": "--color-program",
+    "activityBar.foreground": "--color-opposite99",
+    "activityBar.activeBorder": "--color-accent",
+    "activityBar.activeFocusBorder": "--color-accent",
+    "activityBarBadge.background": "--color-accent",
+    "activityBarBadge.foreground": "--color-program",
+    "badge.background": "--color-1",
+    "badge.foreground": "--color-opposite",
+    "button.background": "--color-4",
+    "button.foreground": "--color-program80",
+    "button.hoverBackground": "--color-1",
+    "dropdown.background": "--color-program90",
+    "dropdown.border": "--color-opposite22",
+    "dropdown.foreground": "--color-opposite99",
+    "diffEditor.insertedTextBackground": "--color-133",
+    "editor.background": "--color-editor",
+    "editor.foreground": "--color-negative",
+    "list.errorForeground": "--color-red",
+    "errorForeground": "--color-red",
+    "list.warningForeground": "--color-2",
+    "editorError.foreground": "--color-red",
+    "editorWarning.foreground": "--color-2",
+    "editorRuler.foreground": "--color-opposite66",
+    "editorOverviewRuler.border": "--color-opposite00",
+    "editorOverviewRuler.modifiedForeground": "--color-100",
+    "editorOverviewRuler.addedForeground": "--color-400",
+    "editorOverviewRuler.deletedForeground": "--color-opposite00",
+    "editorOverviewRuler.errorForeground": "--color-red",
+    "editorOverviewRuler.warningForeground": "--color-2",
+    "editorOverviewRuler.infoForeground": "--color-accent00",
+    "editorOverviewRuler.bracketMatchForeground": "--color-100",
+    "editorGutter.addedBackground":"--color-4",
+    "editorGutter.modifiedBackground":"--color-1",
+    "editorGutter.deletedBackground":"--color-red",
+    "editor.lineHighlightBackground": "--color-opposite08",
+    "editor.lineHighlightBorder": "--color-opposite05",
+    "editor.selectionBackground": "--color-opposite20",
+    "editor.selectionHighlightBorder": "--color-opposite30",
+    "editor.selectionHighlightBackground": "--color-opposite22",
+    "editor.wordHighlightBackground": "--color-program00",
+    "editor.wordHighlightStrongBackground": "--color-program",
+    "editor.wordHighlightStrongBorder": "--color-opposite80",
+    "editor.inactiveSelectionBackground": "--color-opposite20",
+    "editorCursor.foreground": "--color-opposite",
+    "editor.findMatchBackground": "--color-166",
+    "editor.findMatchHighlightBackground": "--color-opposite22",
+    "editor.hoverHighlightBackground": "--color-opposite22",
+    "editorCodeLens.foreground": "--color-opposite66",
+    "editorGroup.emptyBackground": "--color-program80",
+    "editorGroup.border": "--color-program80",
+    "editorGroupHeader.tabsBackground": "--color-program",
+    "editorIndentGuide.background": "--color-opposite22",
+    "editorLineNumber.foreground": "--color-opposite33",
+    "editorWhitespace.foreground": "--color-opposite66",
+    "editorHoverWidget.background": "--color-widget",
+    "editorHoverWidget.border": "--color-program90",
+    "editorSuggestWidget.background": "--color-widget",
+    "editorSuggestWidget.border": "--color-widget",
+    "editorSuggestWidget.selectedBackground": "--color-widget",
+    "editorWidget.background": "--color-widget",
+    "focusBorder": "--color-accent",
+    "widget.shadow": "--color-widget",
+    "scrollbar.shadow": "--color-opposite80",
+    "editorWidget.border": "--color-100",
+    "editorSuggestWidget.highlightForeground": "--color-1",
+    "editorSuggestWidget.foreground": "--color-gray",
+    "list.activeSelectionBackground": "--color-opposite20",
+    "list.activeSelectionForeground": "--color-opposite",
+    "list.focusBackground": "--color-opposite22",
+    "list.hoverBackground": "--color-opposite10",
+    "list.highlightForeground": "--color-opposite",
+    "list.inactiveSelectionBackground": "--color-opposite22",
+    "list.inactiveSelectionForeground": "--color-gray",
+    "list.focusForeground": "--color-gray",
+    "tree.indentGuidesStroke": "--color-opposite20",
+    "scrollbarSlider.background": "--color-opposite10",
+    "scrollbarSlider.activeBackground": "--color-opposite70",
+    "scrollbarSlider.hoverBackground": "--color-opposite60",
+    "sideBar.background": "--color-program",
+    "sideBar.border": "--color-opposite10",
+    "sideBar.foreground": "--color-opposite90",
+    "sideBarTitle.foreground": "--color-gray",
+    "sideBarSectionHeader.foreground": "--color-opposite",
+    "sideBarSectionHeader.background": "--color-opposite09",
+    "statusBar.background": "--color-program",
+    "statusBar.foreground": "--color-opposite90",
+    "statusBarItem.hoverBackground": "--color-opposite33",
+    "statusBar.noFolderBackground": "--color-program90",
+    "statusBar.debuggingBackground": "--color-program90",
+    "terminal.background": "--color-editor",
+    "panel.border": "--color-program90",
+    "panel.background": "--color-program",
+    "panelTitle.activeBorder": "--color-accent",
+    "tab.border": "--color-opposite00",
+    "tab.activeBackground": "--color-program",
+    "tab.activeBorder": "--color-opposite20",
+    "tab.inactiveBackground": "--color-program",
+    "tab.activeForeground": "--color-opposite",
+    "tab.inactiveForeground": "--color-opposite80",
+    "tab.hoverBackground": "--color-program",
+    "titleBar.activeBackground": "--color-program90",
+    "titleBar.activeForeground": "--color-opposite99",
+    "titleBar.inactiveBackground": "--color-program90",
+    "titleBar.inactiveForeground": "--color-opposite99",
+    "progressBar.background": "--color-4",
+    "input.background": "--color-program90",
+    "input.foreground": "--color-gray",
+    "input.border": "--color-accent",
+    "input.placeholderForeground": "--color-opposite66",
+    "inputOption.activeBorder": "--color-accent",
+    "inputOption.activeBackground": "--color-program00",
+    "inputValidation.infoBackground": "--color-program90",
+    "inputValidation.infoBorder": "--color-accent",
+    "inputValidation.warningBackground": "--color-program90",
+    "inputValidation.warningBorder": "--color-2",
+    "inputValidation.errorBackground": "--color-program90",
+    "inputValidation.errorBorder": "--color-red",
+    "pickerGroup.foreground": "--color-1",
+    "pickerGroup.border": "--color-program00",
+    "extensionButton.prominentBackground": "--color-4",
+    "extensionButton.prominentHoverBackground": "--color-1",
+    "extensionButton.prominentForeground": "--color-program90",
+    "editorLink.activeForeground": "--color-1"
+  }
+}
