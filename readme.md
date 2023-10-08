@@ -6,9 +6,9 @@
 <p align="center">
   <img src="./docs/palette.png" alt="Titan Theme Palette" width="150">
 </p>
-<p align="center">
+<h3 align="center">
   A definitive dark theme for VS Code
-</p>
+</h3>
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=diogomoretti.titan-vscode-theme">
@@ -20,6 +20,10 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=diogomoretti.titan-vscode-theme">
     <img alt="Installs" src="https://img.shields.io/visual-studio-marketplace/i/diogomoretti.titan-vscode-theme?style=for-the-badge" />
   </a>
+</p>
+
+<p align="center">
+  <i>A tribute to <a href="https://en.wikipedia.org/wiki/Titan_(moon)">Titan</a>, the second-largest moon in the Solar System.</i>
 </p>
 
 <br>
