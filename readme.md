@@ -1,8 +1,15 @@
+<p align="center">
+  <img src="./docs/logo.png" alt="Titan Theme Logo" width="250">
+</p>
 <h1 align="center">
   Titan Theme
 </h1>
-
-![Titan Banner](./docs/banner.png)
+<p align="center">
+  <img src="./docs/palette.png" alt="Titan Theme Palette" width="150">
+</p>
+<p align="center">
+  A definitive dark theme for VS Code
+</p>
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=diogomoretti.titan-vscode-theme">
@@ -25,9 +32,9 @@
 ## Installation via VS Code
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-2. Search for `Lukin Theme`
+2. Search for `Titan Theme`
 3. Click **Install** to install it
-4. Code > Preferences > Color Theme > **Lukin Theme**
+4. Code > Preferences > Color Theme > **Titan Theme**
 
 ## License
 
