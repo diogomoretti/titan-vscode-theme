@@ -9,6 +9,10 @@
     "build": "node build",
     "watch": "nodemon --watch src/colors.js --watch src/*.json build.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diogomoretti/titan-vscode-theme"
+  },
   "license": "MIT",
   "galleryBanner": {
     "color": "#252525",
