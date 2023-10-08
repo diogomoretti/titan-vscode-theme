@@ -1,7 +1,7 @@
 {
-  "name": "oceans-vscode-theme",
+  "name": "titan-vscode-theme",
   "version": "1.0.0",
-  "displayName": "Oceans Theme",
+  "displayName": "Titan Theme",
   "publisher": "diogomoretti",
   "author": "Diogo Moretti",
   "icon": "images/icon.png",
@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "galleryBanner": {
-    "color": "#222222",
+    "color": "#252525",
     "theme": "dark"
   },
   "engines": {
@@ -23,9 +23,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Oceans Theme",
+        "label": "Titan Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/oceans-color-theme.json"
+        "path": "./themes/titan-color-theme.json"
       }
     ]
   },

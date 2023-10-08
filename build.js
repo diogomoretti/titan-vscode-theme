@@ -1,7 +1,7 @@
 const fs = require('fs')
 const colors = require('./src/colors')
 
-const files = ['oceans-color-theme.json']
+const files = ['titan-color-theme.json']
 
 files.forEach(file => {
   let text = fs.readFileSync(`./src/${file}`, 'utf8')

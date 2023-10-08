@@ -8,12 +8,14 @@ module.exports = {
   '--color-2': '#A187D9', // Purple
   '--color-3': '#DC639F', // Pink
   '--color-4': '#DDD14E', // Yellow
-  '--color-5': '#F3AA3D', // Orange
+  '--color-5': '#FFC83A', // Orange
 
   '--color-red': '#CD5353',
 
-  '--color-program': '#000000',
+  '--color-primary': '#FFC83A',
+
+  '--color-program': '#020202',
   '--color-widget': '#111111',
   '--color-opposite': '#FFFFFF',
-  '--color-editor': '#00000060',
+  '--color-editor': '#040404',
 }
