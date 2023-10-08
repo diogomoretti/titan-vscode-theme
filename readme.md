@@ -1,9 +1,8 @@
+# Titan Theme
+
 <p align="center">
   <img src="./docs/logo.png" alt="Titan Theme Logo" width="250">
 </p>
-<h1 align="center">
-  Titan Theme
-</h1>
 <p align="center">
   <img src="./docs/palette.png" alt="Titan Theme Palette" width="150">
 </p>
