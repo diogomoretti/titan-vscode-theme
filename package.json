@@ -1,5 +1,6 @@
 {
   "name": "titan-vscode-theme",
+  "description": "A definitive dark theme for VS Code",
   "version": "1.0.1",
   "displayName": "Titan Theme",
   "publisher": "diogomoretti",
@@ -37,7 +38,6 @@
   },
   "keywords": [
     "Theme",
-    "Ultra",
     "Dark"
   ],
   "dependencies": {
