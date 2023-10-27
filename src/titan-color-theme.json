@@ -1,5 +1,5 @@
 {
-  "name": "Oceans Theme",
+  "name": "Titan Theme",
   "type": "dark",
   "tokenColors": [
     {
@@ -849,6 +849,9 @@
     "scrollbarSlider.background": "--color-opposite10",
     "scrollbarSlider.activeBackground": "--color-opposite70",
     "scrollbarSlider.hoverBackground": "--color-opposite60",
+    "minimapSlider.background": "--color-opposite20",
+    "minimapSlider.hoverBackground": "--color-opposite40",
+    "minimapSlider.activeBackground": "--color-opposite50",
     "sideBar.background": "--color-program",
     "sideBar.border": "--color-opposite20",
     "sideBar.foreground": "--color-opposite90",
