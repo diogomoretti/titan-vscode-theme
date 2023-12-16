@@ -896,6 +896,9 @@
     "extensionButton.prominentBackground": "--color-4",
     "extensionButton.prominentHoverBackground": "--color-1",
     "extensionButton.prominentForeground": "--color-program90",
-    "editorLink.activeForeground": "--color-1"
+    "editorLink.activeForeground": "--color-1",
+    "editorSuggestWidget.background": "--color-widget90",
+    "editorSuggestWidget.selectedBackground": "--color-gray10",
+    "editorSuggestWidget.highlightForeground": "--color-accent"
   }
 }

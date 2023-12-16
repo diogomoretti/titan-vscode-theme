@@ -896,6 +896,9 @@
     "extensionButton.prominentBackground": "#DDD14E",
     "extensionButton.prominentHoverBackground": "#5AC0E4",
     "extensionButton.prominentForeground": "#02020290",
-    "editorLink.activeForeground": "#5AC0E4"
+    "editorLink.activeForeground": "#5AC0E4",
+    "editorSuggestWidget.background": "#11111190",
+    "editorSuggestWidget.selectedBackground": "#EEEEEE10",
+    "editorSuggestWidget.highlightForeground": "#64C68B"
   }
 }
