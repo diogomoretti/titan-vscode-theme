@@ -827,15 +827,11 @@
     "editorWhitespace.foreground": "--color-opposite66",
     "editorHoverWidget.background": "--color-widget",
     "editorHoverWidget.border": "--color-program90",
-    "editorSuggestWidget.background": "--color-widget",
-    "editorSuggestWidget.border": "--color-widget",
-    "editorSuggestWidget.selectedBackground": "--color-widget",
     "editorWidget.background": "--color-widget",
     "focusBorder": "--color-primary",
     "widget.shadow": "--color-widget",
     "scrollbar.shadow": "--color-opposite80",
     "editorWidget.border": "--color-100",
-    "editorSuggestWidget.highlightForeground": "--color-1",
     "editorSuggestWidget.foreground": "--color-gray",
     "list.activeSelectionBackground": "--color-opposite20",
     "list.activeSelectionForeground": "--color-opposite",
@@ -897,8 +893,9 @@
     "extensionButton.prominentHoverBackground": "--color-1",
     "extensionButton.prominentForeground": "--color-program90",
     "editorLink.activeForeground": "--color-1",
-    "editorSuggestWidget.background": "--color-widget90",
+    "editorSuggestWidget.background": "--color-widget",
     "editorSuggestWidget.selectedBackground": "--color-gray10",
-    "editorSuggestWidget.highlightForeground": "--color-accent"
+    "editorSuggestWidget.highlightForeground": "--color-primary",
+    "editorSuggestWidget.border": "#000000"
   }
 }

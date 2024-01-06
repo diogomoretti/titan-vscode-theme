@@ -827,15 +827,11 @@
     "editorWhitespace.foreground": "#FFFFFF66",
     "editorHoverWidget.background": "#111111",
     "editorHoverWidget.border": "#02020290",
-    "editorSuggestWidget.background": "#111111",
-    "editorSuggestWidget.border": "#111111",
-    "editorSuggestWidget.selectedBackground": "#111111",
     "editorWidget.background": "#111111",
     "focusBorder": "#FFC83A",
     "widget.shadow": "#111111",
     "scrollbar.shadow": "#FFFFFF80",
     "editorWidget.border": "#5AC0E400",
-    "editorSuggestWidget.highlightForeground": "#5AC0E4",
     "editorSuggestWidget.foreground": "#EEEEEE",
     "list.activeSelectionBackground": "#FFFFFF20",
     "list.activeSelectionForeground": "#FFFFFF",
@@ -897,8 +893,9 @@
     "extensionButton.prominentHoverBackground": "#5AC0E4",
     "extensionButton.prominentForeground": "#02020290",
     "editorLink.activeForeground": "#5AC0E4",
-    "editorSuggestWidget.background": "#11111190",
+    "editorSuggestWidget.background": "#111111",
     "editorSuggestWidget.selectedBackground": "#EEEEEE10",
-    "editorSuggestWidget.highlightForeground": "#64C68B"
+    "editorSuggestWidget.highlightForeground": "#FFC83A",
+    "editorSuggestWidget.border": "#000000"
   }
 }
